@@ -1,1 +1,218 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Bean Variety Profiles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header, footer {
+            background-color: #4a2c2a;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #6f4e37;
+            padding: 0.5em;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1em;
+        }
+        .main-content {
+            display: flex;
+            flex: 1;
+        }
+        .content {
+            flex: 1;
+            padding: 1em;
+        }
+        .sidebar {
+            width: 160px;
+            height: 600px;
+            background-color: #f0f0f0;
+            margin: 1em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #6f4e37;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Coffee Bean Variety Profiles</h1>
+    </header>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Varieties</a>
+        <a href="#">Origins</a>
+        <a href="#">Flavor Profiles</a>
+        <a href="#">Brewing Methods</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="main-content">
+        <aside class="sidebar">
+            <!-- Left Sidebar Ad Space -->
+            <div style="width:160px;height:600px;background-color:#ddd;display:flex;justify-content:center;align-items:center;">
+                Ad Space 160x600
+            </div>
+        </aside>
+
+       <main class="content">
+    <h2>Welcome to Coffee Bean Variety Profiles</h2>
+    <p>Explore the world of coffee through our comprehensive data tables and profiles.</p>
+
+    <h3>Featured Coffee Bean of the Month: Ethiopian Yirgacheffe</h3>
+    <table>
+        <tr>
+            <th>Variety</th>
+            <th>Origin</th>
+            <th>Flavor Profile</th>
+            <th>Acidity</th>
+            <th>Body</th>
+            <th>Altitude</th>
+        </tr>
+        <tr>
+            <td>Ethiopian Yirgacheffe</td>
+            <td>Ethiopia</td>
+            <td>Floral, citrusy, with notes of bergamot</td>
+            <td>High</td>
+            <td>Light to Medium</td>
+            <td>1,750 - 2,200 meters</td>
+        </tr>
+    </table>
+
+    <h3>Top 5 Most Popular Coffee Bean Varieties</h3>
+    <table>
+        <tr>
+            <th>Rank</th>
+            <th>Variety</th>
+            <th>Origin</th>
+            <th>Characteristics</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Arabica Typica</td>
+            <td>Various</td>
+            <td>Sweet, complex flavor</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Bourbon</td>
+            <td>Rwanda, Latin America</td>
+            <td>Deep, buttery body</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Gesha/Geisha</td>
+            <td>Ethiopia, Panama</td>
+            <td>Floral, tea-like</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Caturra</td>
+            <td>Central & South America</td>
+            <td>Bright acidity, light body</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Pacamara</td>
+            <td>El Salvador</td>
+            <td>Complex, often fruity</td>
+        </tr>
+    </table>
+
+    <h3>Caffeine Content Comparison</h3>
+    <table>
+        <tr>
+            <th>Variety</th>
+            <th>Caffeine Content (mg per 100g)</th>
+        </tr>
+        <tr>
+            <td>Robusta</td>
+            <td>2.2 - 2.7%</td>
+        </tr>
+        <tr>
+            <td>Arabica</td>
+            <td>1.2 - 1.5%</td>
+        </tr>
+        <tr>
+            <td>Liberica</td>
+            <td>1.2 - 1.4%</td>
+        </tr>
+    </table>
+
+    <h3>Latest Coffee Market Trends</h3>
+    <table>
+        <tr>
+            <th>Trend</th>
+            <th>Description</th>
+            <th>Impact</th>
+        </tr>
+        <tr>
+            <td>Specialty Coffee Growth</td>
+            <td>Increasing demand for high-quality, single-origin beans</td>
+            <td>Higher prices for premium varieties</td>
+        </tr>
+        <tr>
+            <td>Sustainability Focus</td>
+            <td>Growing interest in environmentally friendly and ethically sourced coffee</td>
+            <td>Rise in certified organic and fair trade options</td>
+        </tr>
+        <tr>
+            <td>Exotic Variety Exploration</td>
+            <td>Consumers seeking unique and rare coffee experiences</td>
+            <td>Increased cultivation of lesser-known varieties</td>
+        </tr>
+    </table>
+
+    <h3>Upcoming Coffee Events</h3>
+    <ul>
+        <li>World of Coffee Expo - June 15-17, 2024, Berlin, Germany</li>
+        <li>Specialty Coffee Association Championship - September 8-10, 2024, Portland, USA</li>
+        <li>International Coffee Tasting Workshop - November 3-5, 2024, Bogotá, Colombia</li>
+    </ul>
+
+    <h3>Latest Updates</h3>
+    <ul>
+        <li>New data added: Caffeine content comparison across 20 popular varieties</li>
+        <li>Updated: Price trends for specialty beans in 2024</li>
+        <li>Coming soon: Interactive flavor profile tool</li>
+        <li>New article: Impact of climate change on coffee production regions</li>
+    </ul>
+</main>
+        <aside class="sidebar">
+            <!-- Right Sidebar Ad Space -->
+            <div style="width:160px;height:600px;background-color:#ddd;display:flex;justify-content:center;align-items:center;">
+                Ad Space 160x600
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Coffee Bean Variety Profiles. All rights reserved.</p>
+    </footer>
+</body>
+</html>
